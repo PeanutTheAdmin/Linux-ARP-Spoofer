@@ -4,7 +4,8 @@
 
 """
 Kali machine needs to allow packets with IP Forwarding(Run following command in terminal):
-echo 1 > /proc/sys/net/ipv4/ip_forward
+ENABLE FORWARDING: sudo sysctl -w net.ipv4.ip_forward=1
+DISABLE FORWARDING: sudo sysctl -w net.ipv4.ip_forward=0
 """
 
 import scapy.all as scapy

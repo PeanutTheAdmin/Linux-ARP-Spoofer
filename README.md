@@ -1,3 +1,3 @@
 # Linux-ARP-Spoofer
 
-Linux ARP Spoofer via Terminal
+Linux ARP Spoofer
